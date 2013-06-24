@@ -1,0 +1,35 @@
+---
+layout: post
+title: "Government in Technology"
+date: 2012-06-15 21:16
+comments: true
+categories: technology, government
+---
+
+I read an interesting [article](http://www.bbc.co.uk/news/technology-18206810#TWEET150944) a few weeks back that I wanted to comment on. I think this brings about a few interesting ideas regarding this information age and choice, and govenrment involvement in technology.
+
+<!-- More -->
+
+####Information Age and Choice
+
+As we enter the dubbed Information Age, it has become quite obvious that we are not really lacking in information. Big Data has become a new and emerging topic of study as we have learned how to acquire information so well and so fast that we no longer know what to do with it and how to process it all (and this has direct relations with parallel computing as it is the current best attempt to solve these Big Data processing problems). This further brings up another notion: _People no longer like choices._
+
+Now what do I mean by that? As information pools grow, as does accessibility to various markets. Now more than ever, individuals can start their own companies (start-ups) and have a great chance at being successful. I can Google “how to be an entrepreneur,” “how to write a business model,” etc. Inherently, there is _more competition_ as knowledge becomes more accessible to everyone. This increased competition has led to a substantial change in the way marketing occurs. Think about a trip to Safeway or your nearby big grocer. In a given aisle, you can probably find over 100 different types of cereal. Do consumers like choices? Well, yes I suppose they do. But increasingly so, consumers EXPECT choices to be made for them. Facebook knows what types of things you “like” and therefore can be intelligent and make choices for you (so long as Facebook can manage that Big Data and process it effectively and intelligently). Barry Schwartz does an [excellent job of capturing](http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html) how choices have now paralyzed us as consumers. If you have 100 options to choose from and you are relatively inexperienced in the topic, making a decision is going to be difficult. So what do many people do? Nothing. They resolve to inaction rather than research and making a decision. People expect things to be done for them.
+
+As another example, think about an application on your mobile phone that performs X operation for you. It’s a great tool and offers a lot of various functions that you can turn on/off depending on what you want. In the past, emphasis in development rested in providing functions that allow the user to customize as much as possible. Now, it’s expected that development be able to KNOW what the user wants and do it for them. As a user, you don’t want to sift through 50 different functions, turning them on/off how you want. You want customization, but you want it fast.
+
+--
+
+tldr and summary; The vast amount of information that can be recorded from users is beginning to make people rely on tools that predict what they want, rather than provide a large number of options.
+
+The reason why I bring this notion up with relation to the initially posted article is that although we as users claim to care about privacy so much, we truthfully want Google, Facebook, Amazon to remember everything about us. I want Google to know where I live so when I look up directions, it knows what to do. I want it to know that when I Google “dsp” I mean my business fraternity and not the Disabled Students Program, and I want the one at UC Berkeley, not San Jose State. I want Facebook to tell me more about the friends I care about and less about the random ones I never connect with. I want Amazon to recommend things that I actually may buy as opposed to random promotional items. Giving users the ability to control whether or not their cookies are captured is of course an essential item. But automatically capturing cookies is honestly essentially saving the user from themselves in almost ALL cases (of course there are exceptions). Do you really want to have a pop-up that asks if you mind letting Google store information about you every time you do a search? Let’s be real – convenience is king, and consumers are willing to sacrifice privacy for it (at least at this point).
+
+Rather than place emphasis on controlling whether or not you want websites to access these cookies, government should look toward securing that information. Companies should be mandated to have sufficient security on that information such that it is not used maliciously. Big Data is extremely useful and powerful, but with this power comes responsibility (cliche, I know). Massive password leaks like what occurred with LinkedIn a week or so back is the true concern; storing cookies without consent, for the most part, is not.
+
+And now to a very separate topic….
+
+####What does government know compared to tech industry leading companies?
+
+The government writes laws. They enforce laws. They decide what happens to those who break those laws. It’s a logical system that makes sense given appropriate balance and separation of power. But what happens when the government doesn’t know what they’re talking about? Let’s be frank. Technology is CONSTANTLY changing and is hard to understand. This is a bit of an exaggerated example but let’s just look at Obama or Bush or Clinton (whomever you fancy). Do you think they know enough [anything] about Internet security? Sure they have cabinet members who advise them, but is that enough? [Edit: The current Cabinet doesn’t even have a Department of Technology]. On the White House’s designated page for technology policy, the “Examples of Progress” contains mostly obvious and trite statements in the technology industry.
+
+When I see articles like the one posted initially, I always wonder whether or not government officials are even aware of the difficulty involved in changing their privacy policies. Besides that, is the Internet even controllable in any sense? The article noted that companies were given 12 months to change their policies, and from the sound of it, most of them did absolutely nothing different. Is this acceptable? Frankly, it’s hard to say no given that any of them ignored the call and nothing is going to be done about it. Look at ThePirateBay for example. How does the largest pirating site continue to exist when it’s clearly hosting illegal items on it’s page? Sure, they are pretty clever and playing legal loopholes in order to stay in existence, but this is EXACTLY the point. If websites like that with very obviously illegal content can dodge the law on such a large scale, then I am certain others can to. Put simply, how much can the government know about a such a complex and progressive topic? And given that, how can we expect them to appropriately place laws and restrictions around it dependably? I’m certainly not saying they shouldn’t try, but it is definitely an issue that needs to be looked into and explored much further, especially given that technology really isn’t going anywhere anytime soon.

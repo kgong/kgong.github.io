@@ -1,0 +1,41 @@
+---
+layout: post
+title: "How to Learn"
+date: 2012-06-05 20:58
+comments: true
+categories: technology, education
+---
+
+A fairly popular topic of late has been the incorporation of computer science into lower education in order to adapt young student’s learning for the ever-evolving technological world.
+
+<!-- More -->
+
+However, before I begin on this, I’d like to begin briefly with the subject of parallel computing and the power wall. Quite frankly, it’s a topic so overdone that I’m sick of hearing about it (let alone writing about it). Nonetheless, I believe it serves as a good preface to the topic of education.
+
+####The Modern Computing Problem
+
+Computers are fast. And they’ve been progressively getting faster since their birth in a surprisingly predictable way. You may have heard of [Moore’s Law](http://en.wikipedia.org/wiki/Moore's_law), which has been very well popularized and describes this predictability in computing speeds. But recently there’s been a problem.
+
+As computers get faster and smaller, they give us incredible performance, they do bajillions of operations per second, and they also heat up and use up power like no other. If the continued predictable nature of processing speeds grows with the design that has always been used, the temperature produced on a computer chip will approach levels nearing that of the Sun. Sure, there are some work-around’s that are being engineered, but the future of computing in order to continue to increase speeds lies in [parallel computing](http://en.wikipedia.org/wiki/Parallel_computing).
+
+Parallel computing is utilizing multiple processors to perform computing tasks faster than would a single processor. Seems simple, but there are a TON of intricacies involved. To best explain this in a non-technical manner, imagine an office with two secretaries as compared to an office with one. Certain jobs can be divided up between these secretaries well, like making 20 phone calls that are independent of one another. Secretary A makes 10 calls, Secretary B makes 10 calls. This is an example of a task that is _easily parallelized_.
+
+Now imagine a similar scenario where 20 calls must be made, but call 11-20 rely on the calls 1-10. In this case, Secretary A could make calls 1-5, Secretary B could make calls 6-10, and then they could split up the remaining 11-20 calls. Already, you can start to see some level of complexity. What if each successful call relied on the previous? In that case, there is almost no way to parallelize this problem. This is exactly the type of struggle computer programmers will soon face. This is a completely different programming problem from the ones that everyone is used to and that is typical taught.
+
+I wanted to keep this brief, but hopefully the above explanation makes sense and serves a good introduction to one of the main modern computing problems.
+
+Needless to say, education needs to adapt to accommodate for this change, but this level of programming is primarily taught at the university level and later. This is fine since university education _adapts_. Lower education does not do so nearly as quickly.
+
+####The Modern Education Problem
+
+I’d like to jump topics again to the United States’ current education system and education is changing. I really enjoy this [video](http://en.wikipedia.org/wiki/Parallel_computing) that highlights the topic quite well and captures the essence for an absolute __need__ for a shift in education paradigms. The underlying conclusion of the video is that as the world becomes increasingly filled with “distractions” (principally, media and how dynamic it is now), our children are becoming increasingly more distracted (sounds simple enough). School is difficult because it is filled with boring textbooks, lectures, blah-blah, when kids would much rather play video games or otherwise that actually capture their attention. This is a dramatic shift that must be taken seriously. How can school becoming interesting once again? Computer Science! (just kidding).
+
+Given this context of the need for a more captive education system, this interesting problem becomes a unique opportunity and threat. If computer science is taught in elementary, middle, even high school, it must be done so in an effective manner. Throwing books at students and telling them to read code is NOT INTERESTING to most people. There certainly are programs in place that do a pretty effective job, such as LOGO and other graphic based “programming” tools. Specifically, I’d like to draw attention to a UC Berkeley course, CS10, which I actually took in my first semester.
+
+CS10 is filled with childish looking graphics that makes a prospective computer science major feel ashamed. The course is advertised as a CS course for non-majors, and I think it does an amazing job to actually make students interested in the subject. The students: not your stereotypical Berkeley computer scientist major (Asian, male), but a huge variety of gender, race, and interest – athletes included. The result: many of my peers went on to major in computer science! And many of them are good at it!
+
+What does this mean: __An effective introduction and initial exposure is absolutely paramount in capturing an individual’s interest.__ Doesn’t that sound simple…
+
+I think from this anecdote on CS10, it can be stated that many people are genuinely interested in computer science. Yet people are deterred by its difficulty and the social stigma associated with it. Teaching computer science at a young age presents a unique opportunity to tackle both of these problems. By introducing the subject early on, young students can learn the feeling of solving those first few problems in computer science (anyone who has learned some CS can attest to this). They can avoid constructing the typical Asian, nerdy, male association with the field and introduce a new unique perspective to an industry saturated with those Asian, nerdy guys. I am not saying I have the solution and the way to best teach computer science to young students in order to best achieve this, but I am saying that the topic deserves far more attention. The question is not whether or not it should be taught, but how: striking the balance between teaching a stereotypically “boring” subject and an interesting way to capture students’ attention.
+
+> Brian Harvey is a very well respected professor at Berkeley who has pushed efforts in both Logo and CS10 in the development of computer science in pre-college education. Read more about him at his website.
