@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>How to Learn - Kevin Gong</title>
+  <meta name="author" content="Kevin Gong">
+  <link rel="author" href="humans.txt">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  
+    
+  
+  <meta name="description" content="A fairly popular topic of late has been the incorporation of computer science into lower education in order to adapt young student’s learning for &hellip;">
+  
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://kgong.github.io/blog/2012/06/05/how-to-learn/">
+  <link href="/favicon.png" rel="icon">
+  <link href='http://fonts.googleapis.com/css?family=Cantarell' rel='stylesheet' type='text/css'>
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Kevin Gong" type="application/atom+xml">
+  <meta name="og:type" content="website" />
+  <meta name="og:site_name" content="Kevin Gong" />
+  <meta name="og:title" content="How to Learn" />
+  <meta name="og:description" content="A fairly popular topic of late has been the incorporation of computer science into lower education in order to adapt young student’s learning for &hellip;" />
+  <meta name="og:url" content="http://kgong.github.io/blog/2012/06/05/how-to-learn/"/>
+  <meta name="url" content="http://kgong.github.io/blog/2012/06/05/how-to-learn/">
+  
+  <meta name="subject" content="educationtechnology,"/>
+  <meta name="category" content="educationtechnology,"/>
+  
+  <meta name="distribution" content="global">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <nav role="navigation"><div class="navbar">
+  <div class="navbar-inner">
+    <a class="brand" href="/">Kevin Gong</a>
+    <ul class="nav">
+      <li><a href="/">Home</a></li>
+      <li><a href="/blog/archives">Archives</a></li>
+    </ul>
+    <ul class="nav" data-subscription="rss">
+      <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+      
+    </ul>
+      
+    <form class="navbar-form" action="http://google.com/search" method="get">
+      <fieldset role="search">
+        <input type="hidden" name="q" value="site:kgong.github.io" />
+        <input class="span2" type="text" name="q" results="0" placeholder="Search"/>
+      </fieldset>
+    </form>
+      
+    
+  </div>
+</div>
+</nav>
+  <div class="wrapper_single">
+    <div class="container">
+      <article class="span8 offset2" role="article">
+        <div class="article-format">
+
+  <header>
+    
+      <h1 class="entry-title">How to Learn</h1>
+    
+    
+      <p class="meta">
+        
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/103804089237056802978?rel=author"><span class="fn">Kevin Gong</span></a></span>
+  
+
+ - 
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-05T20:58:00-07:00" pubdate data-updated="true">Jun 5<span>th</span>, 2012</time> - 
+        
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/education/'>education</a>, <a class='category' href='/blog/categories/technology/'>technology,</a>
+  
+</span>
+
+
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><p>A fairly popular topic of late has been the incorporation of computer science into lower education in order to adapt young student’s learning for the ever-evolving technological world.</p>
+
+<!-- More -->
+
+
+<p>However, before I begin on this, I’d like to begin briefly with the subject of parallel computing and the power wall. Quite frankly, it’s a topic so overdone that I’m sick of hearing about it (let alone writing about it). Nonetheless, I believe it serves as a good preface to the topic of education.</p>
+
+<h4>The Modern Computing Problem</h4>
+
+<p>Computers are fast. And they’ve been progressively getting faster since their birth in a surprisingly predictable way. You may have heard of <a href="http://en.wikipedia.org/wiki/Moore's_law">Moore’s Law</a>, which has been very well popularized and describes this predictability in computing speeds. But recently there’s been a problem.</p>
+
+<p>As computers get faster and smaller, they give us incredible performance, they do bajillions of operations per second, and they also heat up and use up power like no other. If the continued predictable nature of processing speeds grows with the design that has always been used, the temperature produced on a computer chip will approach levels nearing that of the Sun. Sure, there are some work-around’s that are being engineered, but the future of computing in order to continue to increase speeds lies in <a href="http://en.wikipedia.org/wiki/Parallel_computing">parallel computing</a>.</p>
+
+<p>Parallel computing is utilizing multiple processors to perform computing tasks faster than would a single processor. Seems simple, but there are a TON of intricacies involved. To best explain this in a non-technical manner, imagine an office with two secretaries as compared to an office with one. Certain jobs can be divided up between these secretaries well, like making 20 phone calls that are independent of one another. Secretary A makes 10 calls, Secretary B makes 10 calls. This is an example of a task that is <em>easily parallelized</em>.</p>
+
+<p>Now imagine a similar scenario where 20 calls must be made, but call 11-20 rely on the calls 1-10. In this case, Secretary A could make calls 1-5, Secretary B could make calls 6-10, and then they could split up the remaining 11-20 calls. Already, you can start to see some level of complexity. What if each successful call relied on the previous? In that case, there is almost no way to parallelize this problem. This is exactly the type of struggle computer programmers will soon face. This is a completely different programming problem from the ones that everyone is used to and that is typical taught.</p>
+
+<p>I wanted to keep this brief, but hopefully the above explanation makes sense and serves a good introduction to one of the main modern computing problems.</p>
+
+<p>Needless to say, education needs to adapt to accommodate for this change, but this level of programming is primarily taught at the university level and later. This is fine since university education <em>adapts</em>. Lower education does not do so nearly as quickly.</p>
+
+<h4>The Modern Education Problem</h4>
+
+<p>I’d like to jump topics again to the United States’ current education system and education is changing. I really enjoy this <a href="http://en.wikipedia.org/wiki/Parallel_computing">video</a> that highlights the topic quite well and captures the essence for an absolute <strong>need</strong> for a shift in education paradigms. The underlying conclusion of the video is that as the world becomes increasingly filled with “distractions” (principally, media and how dynamic it is now), our children are becoming increasingly more distracted (sounds simple enough). School is difficult because it is filled with boring textbooks, lectures, blah-blah, when kids would much rather play video games or otherwise that actually capture their attention. This is a dramatic shift that must be taken seriously. How can school becoming interesting once again? Computer Science! (just kidding).</p>
+
+<p>Given this context of the need for a more captive education system, this interesting problem becomes a unique opportunity and threat. If computer science is taught in elementary, middle, even high school, it must be done so in an effective manner. Throwing books at students and telling them to read code is NOT INTERESTING to most people. There certainly are programs in place that do a pretty effective job, such as LOGO and other graphic based “programming” tools. Specifically, I’d like to draw attention to a UC Berkeley course, CS10, which I actually took in my first semester.</p>
+
+<p>CS10 is filled with childish looking graphics that makes a prospective computer science major feel ashamed. The course is advertised as a CS course for non-majors, and I think it does an amazing job to actually make students interested in the subject. The students: not your stereotypical Berkeley computer scientist major (Asian, male), but a huge variety of gender, race, and interest – athletes included. The result: many of my peers went on to major in computer science! And many of them are good at it!</p>
+
+<p>What does this mean: <strong>An effective introduction and initial exposure is absolutely paramount in capturing an individual’s interest.</strong> Doesn’t that sound simple…</p>
+
+<p>I think from this anecdote on CS10, it can be stated that many people are genuinely interested in computer science. Yet people are deterred by its difficulty and the social stigma associated with it. Teaching computer science at a young age presents a unique opportunity to tackle both of these problems. By introducing the subject early on, young students can learn the feeling of solving those first few problems in computer science (anyone who has learned some CS can attest to this). They can avoid constructing the typical Asian, nerdy, male association with the field and introduce a new unique perspective to an industry saturated with those Asian, nerdy guys. I am not saying I have the solution and the way to best teach computer science to young students in order to best achieve this, but I am saying that the topic deserves far more attention. The question is not whether or not it should be taught, but how: striking the balance between teaching a stereotypically “boring” subject and an interesting way to capture students’ attention.</p>
+
+<blockquote><p>Brian Harvey is a very well respected professor at Berkeley who has pushed efforts in both Logo and CS10 in the development of computer science in pre-college education. Read more about him at his website.</p></blockquote>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+
+  
+    <span class="byline author vcard">by <a href="https://plus.google.com/103804089237056802978?rel=author"><span class="fn">Kevin Gong</span></a></span>
+  
+
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-06-05T20:58:00-07:00" pubdate data-updated="true">Jun 5<span>th</span>, 2012</time>
+      
+
+posted in
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/education/'>education</a>, <a class='category' href='/blog/categories/technology/'>technology,</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://kgong.github.io/blog/2012/06/05/how-to-learn/" data-via="_kevingong" data-counturl="http://kgong.github.io/blog/2012/06/05/how-to-learn/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    
+    
+      <a class="pull-right" href="/blog/2012/06/15/government-in-technology/" title="Next Post: Government in Technology">Government in Technology &raquo;</a>
+    
+  </footer>
+
+</div>
+
+        
+      </article>
+    </div>
+  </div>
+  <div id="footer-widgets">
+  <div class="container">
+    <div class="row">
+  <div class="span3">
+    <h2>recent posts</h2>
+    <ul class="recent_posts">
+      
+        <li>
+          <a href="/blog/2013/06/23/blogging-revisited/">Blogging Revisited</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2012/07/16/free-speech-and-computing/">Free Speech and Computing</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2012/06/15/government-in-technology/">Government in Technology</a>
+        </li>
+      
+        <li>
+          <a href="/blog/2012/06/05/how-to-learn/">How to Learn</a>
+        </li>
+      
+    </ul>
+    <h2><a href="/blog/archives">archives</a></h2>
+  </div>
+  <div class="span3">
+    
+
+  </div>
+  <div class="span4">
+    
+<h2>twitter</h2>
+<a href="https://twitter.com/_kevingong" class="twitter-follow-button" data-show-count="true" data-lang="en">Follow @_kevingong</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<div class="tweet" data-twitter-user="_kevingong">
+</div>
+
+
+  </div>
+  <div class="span2">
+    <h2>found on</h2>
+
+<a href="https://github.com/kgong/" rel="tooltip" title="Github"><img class="social_icon" title="Github" alt="github icon" src="/images/glyphicons_381_github.png"></a>
+
+
+
+
+
+<a href="http://www.linkedin.com/in/kevinkgong" rel="tooltip" title="Linkedin"><img class="social_icon" title="Linkedin" alt="Linkedin icon" src="/images/glyphicons_377_linked_in.png"></a>
+
+
+
+<a href="http://twitter.com/_kevingong" rel="tooltip" title="Twitter"><img class="social_icon" title="Twitter" alt="Twitter icon" src="/images/glyphicons_391_twitter_t.png"></a>
+
+
+
+<a href="https://plus.google.com/103804089237056802978?rel=author" rel="tooltip" title="Google Plus"><img class="social_icon" title="Google Plus" alt="Google Plus icon" src="/images/glyphicons_386_google_plus.png"></a>
+
+
+
+
+
+<h2>contact at</h2>
+<a href="mailto:kevinkgong@gmail.com">kevinkgong@gmail.com</a>
+
+
+  </div>
+</div>
+
+  </div>
+</div>
+<footer class="footer">
+  <div class="container">
+    <p class="pull-left">
+  <a href="/">Kevin Gong</a>
+  - Copyright &copy; 2013 - Kevin Gong
+</p>
+<p class="pull-right">
+  <span>Powered by <a href="http://octopress.org/">Octopress</a>.</span>
+  
+    <span>Image by <a href="http://www.soulclimbing.com/Photo/SearchResults?selectedPhotographer=Olga+Nezhevenko">Olga Nezhevenko</a>.</span>
+  
+</p>
+
+  </div>
+</footer>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script>window.jQuery || document.write('<script src="/javascripts/libs/jquery-1.7.2.min.js" type="text/javascript"><\/script>')</script>
+<script src="/javascripts/libs/bootstrap.min.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.tweet.js" type="text/javascript"></script>
+<script src="/javascripts/jquery.instagram.js" type="text/javascript"></script>
+<script src="/javascripts/libs/jquery.masonry.min.js" type="text/javascript"></script>
+<script src="/javascripts/custom.js" type="text/javascript"></script>
+
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+</body>
+</html>

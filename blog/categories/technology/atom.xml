@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: technology, | Kevin Gong]]></title>
+  <link href="http://kgong.github.io/blog/categories/technology/atom.xml" rel="self"/>
+  <link href="http://kgong.github.io/"/>
+  <updated>2013-06-23T21:43:58-07:00</updated>
+  <id>http://kgong.github.io/</id>
+  <author>
+    <name><![CDATA[Kevin Gong]]></name>
+    <email><![CDATA[kevinkgong@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Free Speech and Computing]]></title>
+    <link href="http://kgong.github.io/blog/2012/07/16/free-speech-and-computing/"/>
+    <updated>2012-07-16T21:21:00-07:00</updated>
+    <id>http://kgong.github.io/blog/2012/07/16/free-speech-and-computing</id>
+    <content type="html"><![CDATA[<p>Computers and programs are the design of their creators. And when a program is seen to output content that is controversial, obscene, or maybe simply illegal, where does the First Amendment come into play? Does free speech pertain to the programs we write? (Interestingly, what if we somehow manage to create Artificial Intelligence that can automate it’s own thoughts? Whose speech is that..?) It seems fairly obvious at first glance that if John Smith creates a program that outputs some illicit content, then John Smith is at least mostly responsible for that.</p>
+
+<!-- More -->
+
+
+<p>But let’s look deeper. A GPS system uses “speech” to guide you along a route. LinkedIn will use it’s “voice” to suggest some friends to you. Do these enjoy the rights of the First Amendment? Do they deserve to? Do they belong in a separate category altogether?</p>
+
+<p>Tim Wu does an interesting job exploring the topic <a href="http://www.nytimes.com/2012/06/20/opinion/free-speech-for-computers.html?_r=2">here</a>. As he notes, a lawsuit in 2003 from a company complaining about their search result ranking provided by Google led to the declaration that those search results represent constitutionally protect speech. This seems to make sense — Google publishes an opinion on what it believes is important given a search topic, and the user can choose to interpret it how he/she pleases. This sounds like speech to me. But take it another step and consider that government attempts to control or regulate Google would then be a violation of free speech. Things start to get hairy.</p>
+
+<p>Wu continues offering a few examples: consider Google’s embedding of advertisements slyly into search results, Facebook’s distribution of information, Amazon’s recommendations. If these decisions too are protected by free speech, then they cannot be regulated; they can impede competition and alter results in a way that is advantageous to them. Is this appropriate? Wu boldly claims: “The line can be easily drawn: as a general rule, nonhuman or automated choices should not be granted the full protection of the First Amendment, and often should not be considered “speech” at all. (Where a human does make a specific choice about specific content, the question is different.)”</p>
+
+<p>—</p>
+
+<p>Reading this article, it seems that Mr. Wu is a bit misinformed/lacking in some knowledge. The decisions he highlighted and conglomerated, that is those pertaining to Google’s ads, Facebook’s distribution of information, and Amazon’s recommendations seem poorly grouped. Facebook distributing information via algorithms is not an issue of free speech. That is not so much a “decision” decided by algorithm as it is a blatant choice of the engineer who made it. Additionally, this is not free speech, but a potential breech in privacy laws. This is a different topic altogether that does not belong in this discussion.</p>
+
+<p>The other two may have potential merit and belonging in this topic. And to answer the question of whether or not this is appropriate, I say, “Why the hell not?” Simply, Google and Amazon or companies that offer us consumers a service. There are plenty of alternatives to these two powerhouses, and we as consumers elect to use them. If Google places ads and arguably blends them in as search results or gives preferential treatment in their results, then that is their decision. It is our job as consumers to see through poor service and use other options, protest Google’s services as necessary, and act accordingly. Likewise, if we disagree with Amazon’s recommendations or ethics in providing skewed results, then we can act accordingly. <strong>It is not Google’s or Amazon’s responsibility to provide unbiased results.</strong> Since when does the task of providing objective material rest on the company? Last I checked, almost every advertisement will claim that their company is the best/most popular (when this clearly cannot be the case). Do companies offer unbiased opinion when they lobby for political representation?</p>
+
+<p>Surely, there should be concerns with computer decisions and artificial intelligence in the realm of free speech. Surely, their needs to be some distinction between a program and its creator in terms of speech laws. But we can’t forget that internet companies are still companies just as before. If it is Google’s responsibility to provide 100% objective results by law, then what about the variety of other news sources, companies? The focus on the distinction between humans and computers seems misplaced in his broad declaration. It instead misplaces efforts in defining such a distinction rather than focusing on the issue of the actual content at hand.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Government in Technology]]></title>
+    <link href="http://kgong.github.io/blog/2012/06/15/government-in-technology/"/>
+    <updated>2012-06-15T21:16:00-07:00</updated>
+    <id>http://kgong.github.io/blog/2012/06/15/government-in-technology</id>
+    <content type="html"><![CDATA[<p>I read an interesting <a href="http://www.bbc.co.uk/news/technology-18206810#TWEET150944">article</a> a few weeks back that I wanted to comment on. I think this brings about a few interesting ideas regarding this information age and choice, and govenrment involvement in technology.</p>
+
+<!-- More -->
+
+
+<h4>Information Age and Choice</h4>
+
+<p>As we enter the dubbed Information Age, it has become quite obvious that we are not really lacking in information. Big Data has become a new and emerging topic of study as we have learned how to acquire information so well and so fast that we no longer know what to do with it and how to process it all (and this has direct relations with parallel computing as it is the current best attempt to solve these Big Data processing problems). This further brings up another notion: <em>People no longer like choices.</em></p>
+
+<p>Now what do I mean by that? As information pools grow, as does accessibility to various markets. Now more than ever, individuals can start their own companies (start-ups) and have a great chance at being successful. I can Google “how to be an entrepreneur,” “how to write a business model,” etc. Inherently, there is <em>more competition</em> as knowledge becomes more accessible to everyone. This increased competition has led to a substantial change in the way marketing occurs. Think about a trip to Safeway or your nearby big grocer. In a given aisle, you can probably find over 100 different types of cereal. Do consumers like choices? Well, yes I suppose they do. But increasingly so, consumers EXPECT choices to be made for them. Facebook knows what types of things you “like” and therefore can be intelligent and make choices for you (so long as Facebook can manage that Big Data and process it effectively and intelligently). Barry Schwartz does an <a href="http://www.ted.com/talks/barry_schwartz_on_the_paradox_of_choice.html">excellent job of capturing</a> how choices have now paralyzed us as consumers. If you have 100 options to choose from and you are relatively inexperienced in the topic, making a decision is going to be difficult. So what do many people do? Nothing. They resolve to inaction rather than research and making a decision. People expect things to be done for them.</p>
+
+<p>As another example, think about an application on your mobile phone that performs X operation for you. It’s a great tool and offers a lot of various functions that you can turn on/off depending on what you want. In the past, emphasis in development rested in providing functions that allow the user to customize as much as possible. Now, it’s expected that development be able to KNOW what the user wants and do it for them. As a user, you don’t want to sift through 50 different functions, turning them on/off how you want. You want customization, but you want it fast.</p>
+
+<p>&mdash;</p>
+
+<p>tldr and summary; The vast amount of information that can be recorded from users is beginning to make people rely on tools that predict what they want, rather than provide a large number of options.</p>
+
+<p>The reason why I bring this notion up with relation to the initially posted article is that although we as users claim to care about privacy so much, we truthfully want Google, Facebook, Amazon to remember everything about us. I want Google to know where I live so when I look up directions, it knows what to do. I want it to know that when I Google “dsp” I mean my business fraternity and not the Disabled Students Program, and I want the one at UC Berkeley, not San Jose State. I want Facebook to tell me more about the friends I care about and less about the random ones I never connect with. I want Amazon to recommend things that I actually may buy as opposed to random promotional items. Giving users the ability to control whether or not their cookies are captured is of course an essential item. But automatically capturing cookies is honestly essentially saving the user from themselves in almost ALL cases (of course there are exceptions). Do you really want to have a pop-up that asks if you mind letting Google store information about you every time you do a search? Let’s be real – convenience is king, and consumers are willing to sacrifice privacy for it (at least at this point).</p>
+
+<p>Rather than place emphasis on controlling whether or not you want websites to access these cookies, government should look toward securing that information. Companies should be mandated to have sufficient security on that information such that it is not used maliciously. Big Data is extremely useful and powerful, but with this power comes responsibility (cliche, I know). Massive password leaks like what occurred with LinkedIn a week or so back is the true concern; storing cookies without consent, for the most part, is not.</p>
+
+<p>And now to a very separate topic….</p>
+
+<h4>What does government know compared to tech industry leading companies?</h4>
+
+<p>The government writes laws. They enforce laws. They decide what happens to those who break those laws. It’s a logical system that makes sense given appropriate balance and separation of power. But what happens when the government doesn’t know what they’re talking about? Let’s be frank. Technology is CONSTANTLY changing and is hard to understand. This is a bit of an exaggerated example but let’s just look at Obama or Bush or Clinton (whomever you fancy). Do you think they know enough [anything] about Internet security? Sure they have cabinet members who advise them, but is that enough? [Edit: The current Cabinet doesn’t even have a Department of Technology]. On the White House’s designated page for technology policy, the “Examples of Progress” contains mostly obvious and trite statements in the technology industry.</p>
+
+<p>When I see articles like the one posted initially, I always wonder whether or not government officials are even aware of the difficulty involved in changing their privacy policies. Besides that, is the Internet even controllable in any sense? The article noted that companies were given 12 months to change their policies, and from the sound of it, most of them did absolutely nothing different. Is this acceptable? Frankly, it’s hard to say no given that any of them ignored the call and nothing is going to be done about it. Look at ThePirateBay for example. How does the largest pirating site continue to exist when it’s clearly hosting illegal items on it’s page? Sure, they are pretty clever and playing legal loopholes in order to stay in existence, but this is EXACTLY the point. If websites like that with very obviously illegal content can dodge the law on such a large scale, then I am certain others can to. Put simply, how much can the government know about a such a complex and progressive topic? And given that, how can we expect them to appropriately place laws and restrictions around it dependably? I’m certainly not saying they shouldn’t try, but it is definitely an issue that needs to be looked into and explored much further, especially given that technology really isn’t going anywhere anytime soon.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[How to Learn]]></title>
+    <link href="http://kgong.github.io/blog/2012/06/05/how-to-learn/"/>
+    <updated>2012-06-05T20:58:00-07:00</updated>
+    <id>http://kgong.github.io/blog/2012/06/05/how-to-learn</id>
+    <content type="html"><![CDATA[<p>A fairly popular topic of late has been the incorporation of computer science into lower education in order to adapt young student’s learning for the ever-evolving technological world.</p>
+
+<!-- More -->
+
+
+<p>However, before I begin on this, I’d like to begin briefly with the subject of parallel computing and the power wall. Quite frankly, it’s a topic so overdone that I’m sick of hearing about it (let alone writing about it). Nonetheless, I believe it serves as a good preface to the topic of education.</p>
+
+<h4>The Modern Computing Problem</h4>
+
+<p>Computers are fast. And they’ve been progressively getting faster since their birth in a surprisingly predictable way. You may have heard of <a href="http://en.wikipedia.org/wiki/Moore's_law">Moore’s Law</a>, which has been very well popularized and describes this predictability in computing speeds. But recently there’s been a problem.</p>
+
+<p>As computers get faster and smaller, they give us incredible performance, they do bajillions of operations per second, and they also heat up and use up power like no other. If the continued predictable nature of processing speeds grows with the design that has always been used, the temperature produced on a computer chip will approach levels nearing that of the Sun. Sure, there are some work-around’s that are being engineered, but the future of computing in order to continue to increase speeds lies in <a href="http://en.wikipedia.org/wiki/Parallel_computing">parallel computing</a>.</p>
+
+<p>Parallel computing is utilizing multiple processors to perform computing tasks faster than would a single processor. Seems simple, but there are a TON of intricacies involved. To best explain this in a non-technical manner, imagine an office with two secretaries as compared to an office with one. Certain jobs can be divided up between these secretaries well, like making 20 phone calls that are independent of one another. Secretary A makes 10 calls, Secretary B makes 10 calls. This is an example of a task that is <em>easily parallelized</em>.</p>
+
+<p>Now imagine a similar scenario where 20 calls must be made, but call 11-20 rely on the calls 1-10. In this case, Secretary A could make calls 1-5, Secretary B could make calls 6-10, and then they could split up the remaining 11-20 calls. Already, you can start to see some level of complexity. What if each successful call relied on the previous? In that case, there is almost no way to parallelize this problem. This is exactly the type of struggle computer programmers will soon face. This is a completely different programming problem from the ones that everyone is used to and that is typical taught.</p>
+
+<p>I wanted to keep this brief, but hopefully the above explanation makes sense and serves a good introduction to one of the main modern computing problems.</p>
+
+<p>Needless to say, education needs to adapt to accommodate for this change, but this level of programming is primarily taught at the university level and later. This is fine since university education <em>adapts</em>. Lower education does not do so nearly as quickly.</p>
+
+<h4>The Modern Education Problem</h4>
+
+<p>I’d like to jump topics again to the United States’ current education system and education is changing. I really enjoy this <a href="http://en.wikipedia.org/wiki/Parallel_computing">video</a> that highlights the topic quite well and captures the essence for an absolute <strong>need</strong> for a shift in education paradigms. The underlying conclusion of the video is that as the world becomes increasingly filled with “distractions” (principally, media and how dynamic it is now), our children are becoming increasingly more distracted (sounds simple enough). School is difficult because it is filled with boring textbooks, lectures, blah-blah, when kids would much rather play video games or otherwise that actually capture their attention. This is a dramatic shift that must be taken seriously. How can school becoming interesting once again? Computer Science! (just kidding).</p>
+
+<p>Given this context of the need for a more captive education system, this interesting problem becomes a unique opportunity and threat. If computer science is taught in elementary, middle, even high school, it must be done so in an effective manner. Throwing books at students and telling them to read code is NOT INTERESTING to most people. There certainly are programs in place that do a pretty effective job, such as LOGO and other graphic based “programming” tools. Specifically, I’d like to draw attention to a UC Berkeley course, CS10, which I actually took in my first semester.</p>
+
+<p>CS10 is filled with childish looking graphics that makes a prospective computer science major feel ashamed. The course is advertised as a CS course for non-majors, and I think it does an amazing job to actually make students interested in the subject. The students: not your stereotypical Berkeley computer scientist major (Asian, male), but a huge variety of gender, race, and interest – athletes included. The result: many of my peers went on to major in computer science! And many of them are good at it!</p>
+
+<p>What does this mean: <strong>An effective introduction and initial exposure is absolutely paramount in capturing an individual’s interest.</strong> Doesn’t that sound simple…</p>
+
+<p>I think from this anecdote on CS10, it can be stated that many people are genuinely interested in computer science. Yet people are deterred by its difficulty and the social stigma associated with it. Teaching computer science at a young age presents a unique opportunity to tackle both of these problems. By introducing the subject early on, young students can learn the feeling of solving those first few problems in computer science (anyone who has learned some CS can attest to this). They can avoid constructing the typical Asian, nerdy, male association with the field and introduce a new unique perspective to an industry saturated with those Asian, nerdy guys. I am not saying I have the solution and the way to best teach computer science to young students in order to best achieve this, but I am saying that the topic deserves far more attention. The question is not whether or not it should be taught, but how: striking the balance between teaching a stereotypically “boring” subject and an interesting way to capture students’ attention.</p>
+
+<blockquote><p>Brian Harvey is a very well respected professor at Berkeley who has pushed efforts in both Logo and CS10 in the development of computer science in pre-college education. Read more about him at his website.</p></blockquote>
+]]></content>
+  </entry>
+  
+</feed>
