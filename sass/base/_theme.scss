@@ -5,13 +5,13 @@
   position: fixed;
   top: 0;
   width: 100%;
-  background-attachment: scroll;
+  background-attachment: fixed;
+  background-position-x: center;
   background-clip: border-box;
   background-color: #323232;
   background-image: url("/images/heroBackDyno.jpg");
   background-origin: padding-box;
-  background-position: 0 0;
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: auto auto;
   margin: 0px;
   padding: 75px;
@@ -79,9 +79,11 @@ article h1 {
   border-bottom-width: 1px;
 }
 .wrapper_single {
-  background-color: #F1F1F1;
+  background-color: #323232;
   background-image: url("/images/heroBackDyno.jpg");
   background-attachment: fixed;
+  background-position-x: center;
+  background-repeat: no-repeat;
   padding-top: 75px;
   padding-bottom: 75px;
   border-bottom-color: white;
