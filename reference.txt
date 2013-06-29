@@ -1,0 +1,13 @@
+New Post: rake new_post["title"]
+
+Generate & Preview: 
+-rake generate
+-rake preview
+
+Deploy:
+-rake generate
+-rake deploy
+
+git add .
+git commit -m 'message'
+git push origin source
